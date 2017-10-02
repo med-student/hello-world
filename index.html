@@ -1,1 +1,152 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lever Website</title>
+	
+
+
+<!-- Bootstrap CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- CSS Style Sheet -->
+	<link rel="stylesheet" type="text/css" href="lever.css">
+
+<!-- Lato Font -->
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,900" rel="stylesheet">
+
+</head>
+<body>
+<!-- navbar -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+<!-- The logo that takes back to homepag -->
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+		<a href="index.html" class="navbar-brand">Lever</a>
+	</div>
+<!-- Content for right side of nav bar -->
+ <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	<ul class="nav navbar-nav">
+		<li><a href="index.html#about_anchor">ABOUT</a></li>
+		<li><a href="insight.html">INSIGHT</a></li>
+		<li><a href="team.html">TEAM</a></li>
+		<li><a href="teaching.html">TEACHING</a></li>
+		<li><a href="contact.html">CONTACT</a></li>
+
+
+	</ul>
+</div>	
+<!-- Content on right side of navbar -->
+	<ul class="nav navbar-nav navbar-right">
+		
+	</ul>
+</nav>
+
+
+<!-- Jumbotron -->
+
+<div class="jumbotron">
+<div class="container">
+  <h1>Lever Lab</h1>
+  <p>Exploring the science of swallowing</p>
+  <p><a id="btn_learn" class="btn btn-primary btn-lg" href="#about_anchor" role="button">Who are we</a></p>
+</div>
+</div>
+
+<a name="about_anchor"></a>
+<!-- What we do division  -->
+<div id="about">
+	
+	<h2 class="headings"> Who we are?</h2>
+		
+	<p class="pageText"> The Lever Lab is a research lab located at the University of Missouri.  We work with animals to better understand swallowing impairment, also known as dysphagia. Dysphagia can be caused by a variety of disorders including Alzheimer&#39;s disease, Huntington&#39;s disease, Parkinson&#39;s disease, muscular dystrophy, spinal muscular atrophy, amyotrophic lateral sclerosis (ALS), Down syndrome, and fragile-X syndrome. Funded by the National Institutes of Health, we investigate animals with these conditions to determine whether they develop characteristics of human dysphagia, with the ultimate goal of finding new treatments to improve swallowing function for humans and companion animals. <br><br><span class="glyphicon glyphicon-menu-down" area-hidden="true"></span>
+	</p>
+	
+
+</div>
+
+<!-- Our Goal -->
+
+<div id="goals">
+
+	<h2 class="headings gray_text">Our Goals</h2>
+	<div class="row">
+		<div class="container">
+		<div class="col-lg-4 col-sm-4">
+			<div class="thumbnail thumbnail-background">
+				<img src="images/mouse.jpg" class="img-circle  img-circle-gray">
+				<div class="caption">
+        			<p class="pageText gray_text caption_font">1. Establish mouse models of dysphagia</p>
+      			</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-4">
+			<div class="thumbnail thumbnail-background">
+				<img src="images/car.jpg" class="img-circle img-circle-gray">
+				<div class="caption">
+					<p class="pageText gray_text caption_font">2. Elucidate the mechanisms underlying dysphagia</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-4">
+			<div class="thumbnail thumbnail-background">
+				<img src="images/hospital.jpg" class="img-circle img-circle-gray">
+				<div class="caption">
+					<p class="pageText gray_text caption_font">3. Develop novel and effective treatments for dysphagia</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+</div>
+</div>
+
+<!-- Awards, Articles, Patents -->
+<a name="work_anchor"></a>
+<div class="awards-section">
+<h2 class="headings"> Our Work</h2>
+<div class="row">
+	<div class="col-lg-7">
+		<p class="headings ulist" id="subheader">Patents</p>
+		<ul class="pageText ulist">
+			<li>US 9,107,385 B2 &#45; Animal kennel for scientific examination &#45; Issued 8/18/2016</li>
+			<li>US 2016/0081591 A1 &#45; System and Method for Laryngeal Reflex Examination &#45; Published 3/24/2016</li>
+			<li>US Provisional App. 62/481,946 &#45; Detecting and Monitoring Bulbar Dysfunction &#45; Filed 4/5/2016</li>
+		</ul>
+		<p class="headings ulist" id="subheader">Highlighted Awards</p>
+		<ul class="pageText ulist">
+			<li>2017: MU Top Faculty Achievers Award for receiving prestigious grants within the past year</li>
+			<li>2016: Excellence in Research Mentoring of Trainees Award, University of Missouri School of Medicine</li>
+			<li>2013: Nominated for the President&#39;s Award for Early Career Excellence</li>
+		</ul>
+		<p class="headings ulist" id="subheader">Publications</p>
+		<p class="pageText ulist">We are publishing non-stop. To see our most current publications view us on <a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/1Fg5diu5eFBAK/bibliography/49445445/public/?sort=date&direction=ascending"> PubMed!</a></p>
+		
+	</div>
+	<div class="col-lg-5" align="center">
+		<img src="images/Coulter_Lever.jpg" id="img-home" class="img-rounded">
+		<p id="btn-learn-about-id"><a id="btn-learn-about"class="btn btn-primary btn-lg" href="insight.html" role="button">Learn More About Our Work  <span class="glyphicon glyphicon-menu-right" area-hidden="true"></span></a></p>
+	</div>
+</div>
+
+
+
+<hr>
+  
+<!-- JQuery must be ahead of JavaScript -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+
+<!-- JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
