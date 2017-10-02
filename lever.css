@@ -1,0 +1,246 @@
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin-top:100px;
+}
+
+.jumbotron {
+	background-image: url(images/brain.jpg);
+	background-size: cover;
+	background-position: center center;
+	
+	padding: 0 15px;
+	height: 450px;
+	filter: grayscale(0%);
+	font-family: "Lato";
+	text-transform: uppercase;
+	color: #404040;
+	border-bottom:2px solid #F1B82D;
+	border-top:2px solid #F1B82D;
+	margin-top: 70px;
+
+
+}
+#insight_jumbotron {
+	background-image: url(images/glass_pic.jpg);
+	color: white;
+}
+
+#team_jumbotron {
+	background-image: url(images/team_pic.jpg);
+	color: white;
+}
+
+#teach_jumbotron {
+	background-image: url(images/teach_pic.jpg);
+	color: black;
+	margin-top: 0px;
+}
+
+.jumbotron h1 {
+	font-family: "Lato";
+	font-weight: 300;
+	padding-top: 200px;
+	margin: 0 0;
+	
+
+	}
+
+.btn-cv {
+	background-color: #F1B82D;
+	border: 2px solid #F1B82D;
+}
+
+.jumbotron p {
+	font-weight: 400;
+	
+}
+
+
+.headings {
+	/*padding-top: 200px;*/
+	padding-bottom: 40px;
+	text-transform: uppercase;
+	font-family: "Lato";
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.pageText {
+	font-family: "Lato";
+	font-weight: 300;
+	text-align: center;
+	font-size: 17px;
+	letter-spacing: 1px;
+	line-height: 2;
+
+}
+
+.navbar-brand {
+	font-family: "Lato";
+	font-weight: "100";
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.col-lg-2 {
+	padding: 30px;
+	width: 16.6%;
+	height: 265px;
+
+}
+
+
+.teach_column {
+	height: 400px;
+}
+.headings2 {
+	color: white;
+	padding-bottom: 0px;
+	font-size: 45px;
+	vertical-align: middle;
+
+}
+
+.headings3 {
+	padding-bottom: 0px;
+}
+
+.img-circle-teach {
+	border: 5px solid #F1B82D;
+}
+
+.img-circle-gray {
+	filter: grayscale(100%);
+
+}
+
+.caption {
+	text-align: center;
+}
+
+.thumbnail {
+	border: 0px solid white;
+}
+
+.thumbnail-background {
+	padding-top: 10px;
+	background-color: #717171;
+}
+
+.team_text {
+	color:white;
+	text-align: center;
+	font-family: "Lato";
+	padding-top: 2px;
+}
+
+.ulist {
+	text-align: left;
+}
+
+.awards-section {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+
+.navbar-brand{
+	font-weight: bold;
+}
+
+.body_teaching{
+	padding-top: 70px;
+}
+
+.gray_text {
+	padding-top: 10px;
+	color: white;
+
+}
+
+.caption_font {
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+
+#contact-background {
+
+	background-color: white;
+	margin: 30px 15px;
+	height: 370px;
+}
+
+#btn_learn {
+	background-color: #F1B82D;
+	border: 2px solid #F1B82D;
+}
+
+#goals {
+	border-top: 2px solid #F1B82D;
+	border-bottom: 2px solid #F1B82D;
+	background-color: #717171;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#about {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+
+#map {
+        height: 400px;
+        width: 100%;
+        border: 2px solid #F1B82D;
+       }
+
+#subheader {
+  		padding-bottom: 0;
+  }
+
+#teach_note{
+	text-align: left;
+	padding-left: 20px;
+	
+}
+
+.insight_headings{
+	text-align: left;
+}
+
+.focus_text{
+	text-align: left;
+	padding-left: 20px;
+}
+
+#teach_heading {
+	text-align: left;
+	
+}
+
+#image_teach {
+	padding-top: 30px;
+}
+
+#img-home {
+	padding-top: 60px;
+}
+
+#btn-learn-about {
+	text-transform: uppercase;
+	background-color: #F1B82D;
+	border: 2px solid #F1B82D;
+}
+
+#btn-learn-about-id {
+	padding-top: 30px;
+}
+
+
